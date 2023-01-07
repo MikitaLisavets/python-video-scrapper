@@ -51,6 +51,6 @@ for i, link in enumerate(video_links):
     audio = audio.set_fps(44100)
     video = video.set_audio(audio)
     output = video.set_duration(video.duration)
-    output.write_videofile("result/video_" + str(i) + ".mp4")
+    output.write_videofile("result/video_" + str(i) + "_" + keyword + ".mp4")
     print("Added audio to video {}")
 
