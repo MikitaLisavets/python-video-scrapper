@@ -1,0 +1,22 @@
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Visual Studio #
+#################
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Python #
+##########
+__pycache__/
+*.py[cod]
+*$py.class
